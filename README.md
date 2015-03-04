@@ -1,2 +1,2 @@
-# Photon_Proto_Shield
-Prototyping shield for the Photon
+# Photon_Shield_Template
+Template layout and Eagle library for Photon Shields

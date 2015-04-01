@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -159,7 +159,7 @@
 <wire x1="35.56" y1="2.54" x2="33.02" y2="0" width="0.2032" layer="20" curve="-90"/>
 <wire x1="33.02" y1="0" x2="2.54" y2="0" width="0.2032" layer="20"/>
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.2032" layer="20" curve="-90"/>
-<text x="35.052" y="6.858" size="1.143" layer="21" font="vector" ratio="15" rot="R90">PHOTON PROTO SHIELD</text>
+<text x="34.925" y="4.826" size="1.016" layer="21" font="vector" ratio="15" rot="R90">PROTO SHIELD FOR PHOTON</text>
 <text x="15.494" y="32.004" size="0.8128" layer="21" font="vector" ratio="15">3V3</text>
 <text x="18.161" y="32.004" size="0.8128" layer="21" font="vector" ratio="15">SDA</text>
 <text x="20.828" y="32.004" size="0.8128" layer="21" font="vector" ratio="15">SCL</text>
@@ -173,7 +173,7 @@
 <dimension x1="0" y1="0" x2="35.56" y2="0" x3="17.78" y3="-3.81" textsize="0.8128" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="35.56" x3="-7.62" y3="17.78" textsize="0.8128" textratio="15" layer="47" unit="inch"/>
 <dimension x1="35.56" y1="35.56" x2="30.734" y2="33.02" x3="33.147" y3="36.83" textsize="0.8128" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<text x="33.909" y="6.858" size="1.143" layer="22" font="vector" ratio="15" rot="MR90">PHOTON PROTO SHIELD</text>
+<text x="33.909" y="4.826" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">PROTO SHIELD FOR PHOTON</text>
 <text x="15.113" y="27.94" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
 <text x="22.86" y="27.94" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">3V3</text>
 <text x="10.033" y="33.909" size="1.016" layer="21" font="vector" ratio="15">I2C</text>
@@ -1738,6 +1738,7 @@ design rules under a new name.</description>
 <element name="JP8" library="SparkFun-Connectors" package="1X09_NO_SILK" value="" x="19.05" y="6.35" rot="R90"/>
 <element name="JP9" library="SparkFun-Connectors" package="1X09_NO_SILK" value="" x="21.59" y="6.35" rot="R90"/>
 <element name="JP10" library="SparkFun-Connectors" package="1X09_NO_SILK" value="" x="24.13" y="6.35" rot="R90"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="0" y="5.461" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">

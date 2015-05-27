@@ -18895,6 +18895,7 @@ Standard 9-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP9" library="SparkFun-Connectors" deviceset="M09" device="NO_SILK"/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M09" device="NO_SILK"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18929,6 +18930,7 @@ Standard 9-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="JP9" gate="G$1" x="213.36" y="91.44"/>
 <instance part="JP10" gate="G$1" x="226.06" y="91.44"/>
 <instance part="LOGO1" gate="G$1" x="2.54" y="2.54"/>
+<instance part="SUPPLY3" gate="G$1" x="93.98" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -19127,8 +19129,9 @@ Standard 9-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="VCC" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="+3V3"/>
-<wire x1="91.44" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
-<label x="96.52" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="91.44" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="124.46" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="160.02" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
